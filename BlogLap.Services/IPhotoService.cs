@@ -11,5 +11,7 @@ namespace BlogLap.Services
 
         public Task<DeletionResult> DeletePhotoAsync(string publicId);
 
+
+
     }
 }

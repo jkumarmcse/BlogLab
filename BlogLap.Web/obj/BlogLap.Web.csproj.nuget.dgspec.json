@@ -4,6 +4,72 @@
     "C:\\working\\p-learning\\ppkt\\BlogLap.Web\\BlogLap.Web.csproj": {}
   },
   "projects": {
+    "C:\\working\\p-learning\\ppkt\\BlogLap.Identity\\BlogLap.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\working\\p-learning\\ppkt\\BlogLap.Identity\\BlogLap.Identity.csproj",
+        "projectName": "BlogLap.Identity",
+        "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Identity\\BlogLap.Identity.csproj",
+        "packagesPath": "C:\\Users\\jsinnapillai\\.nuget\\packages\\",
+        "outputPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jsinnapillai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\working\\p-learning\\ppkt\\BlogLap.Models\\BlogLap.Models.csproj": {
+                "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Models\\BlogLap.Models.csproj"
+              },
+              "C:\\working\\p-learning\\ppkt\\BlogLap.Repository\\BlogLap.Repository.csproj": {
+                "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Repository\\BlogLap.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\working\\p-learning\\ppkt\\BlogLap.Models\\BlogLap.Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -63,14 +129,14 @@
         }
       }
     },
-    "C:\\working\\p-learning\\ppkt\\BlogLap.Web\\BlogLap.Web.csproj": {
+    "C:\\working\\p-learning\\ppkt\\BlogLap.Repository\\BlogLap.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\working\\p-learning\\ppkt\\BlogLap.Web\\BlogLap.Web.csproj",
-        "projectName": "BlogLap.Web",
-        "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Web\\BlogLap.Web.csproj",
+        "projectUniqueName": "C:\\working\\p-learning\\ppkt\\BlogLap.Repository\\BlogLap.Repository.csproj",
+        "projectName": "BlogLap.Repository",
+        "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Repository\\BlogLap.Repository.csproj",
         "packagesPath": "C:\\Users\\jsinnapillai\\.nuget\\packages\\",
-        "outputPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Web\\obj\\",
+        "outputPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jsinnapillai\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,6 +167,171 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\working\\p-learning\\ppkt\\BlogLap.Services\\BlogLap.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\working\\p-learning\\ppkt\\BlogLap.Services\\BlogLap.Services.csproj",
+        "projectName": "BlogLap.Services",
+        "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Services\\BlogLap.Services.csproj",
+        "packagesPath": "C:\\Users\\jsinnapillai\\.nuget\\packages\\",
+        "outputPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jsinnapillai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\working\\p-learning\\ppkt\\BlogLap.Models\\BlogLap.Models.csproj": {
+                "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Models\\BlogLap.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.15.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\working\\p-learning\\ppkt\\BlogLap.Web\\BlogLap.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\working\\p-learning\\ppkt\\BlogLap.Web\\BlogLap.Web.csproj",
+        "projectName": "BlogLap.Web",
+        "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Web\\BlogLap.Web.csproj",
+        "packagesPath": "C:\\Users\\jsinnapillai\\.nuget\\packages\\",
+        "outputPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jsinnapillai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\working\\p-learning\\ppkt\\BlogLap.Identity\\BlogLap.Identity.csproj": {
+                "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Identity\\BlogLap.Identity.csproj"
+              },
+              "C:\\working\\p-learning\\ppkt\\BlogLap.Models\\BlogLap.Models.csproj": {
+                "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Models\\BlogLap.Models.csproj"
+              },
+              "C:\\working\\p-learning\\ppkt\\BlogLap.Repository\\BlogLap.Repository.csproj": {
+                "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Repository\\BlogLap.Repository.csproj"
+              },
+              "C:\\working\\p-learning\\ppkt\\BlogLap.Services\\BlogLap.Services.csproj": {
+                "projectPath": "C:\\working\\p-learning\\ppkt\\BlogLap.Services\\BlogLap.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
