@@ -1,3 +1,4 @@
+using BlogLap.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -12,6 +13,7 @@ namespace BlogLap.Web
 {
     public class Startup
     {
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -23,6 +25,8 @@ namespace BlogLap.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.Configure<CloudinaryOptions>(Configuration.GetSection("CloudinarySettings"));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

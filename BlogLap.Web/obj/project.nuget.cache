@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ta8P+7mloCkos2PHA23RpTUs9W1gdmbcWbsOSFNIw2ab66JkVpGsps3SeGuR7kWTw/R5HRwhPKodDg9+MQ9v5Q==",
+  "dgSpecHash": "7tH+cARH6ipYX156dcOnZafPkJRXNq1NQ8DAEtAe6s7ceHjauKyWF9NK/FHyeJcpH+NBAIiKsNllBCg1ZrSO1w==",
   "success": true,
   "projectFilePath": "C:\\working\\p-learning\\ppkt\\BlogLap.Web\\BlogLap.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jsinnapillai\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
