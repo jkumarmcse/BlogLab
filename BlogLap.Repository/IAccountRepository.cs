@@ -11,6 +11,6 @@ namespace BlogLap.Repository
 
         public Task<IdentityResult> CreateAsync(ApplicationUserIdentity user, CancellationToken cancellationToken);
 
-        public Task<ApplicationUserIdentity> GetUsernameAsync(string normalizedUsername, , CancellationToken cancellationToken);
+        public Task<ApplicationUserIdentity> GetUsernameAsync(string normalizedUsername,  CancellationToken cancellationToken);
     }
 }
