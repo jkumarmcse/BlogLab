@@ -42,7 +42,7 @@ namespace BlogLap.Repository
                 user.Email,
                 user.NormalizedEmail,
                 user.FullName,
-                user.PasswordHash
+                user.PasswordHas
                 );
 
             using (var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection")))

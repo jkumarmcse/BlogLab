@@ -72,12 +72,12 @@ namespace BlogLap.Identity
 
         public Task<string> GetPasswordHashAsync(ApplicationUserIdentity user, CancellationToken cancellationToken)
         {
-            return Task.FromResult(user.PasswordHash);
+            return Task.FromResult(user.PasswordHas);
         }
 
         public Task<string> GetUserIdAsync(ApplicationUserIdentity user, CancellationToken cancellationToken)
         {
-            return Task.FromResult(user.AppliationUserId.ToString());
+            return Task.FromResult(user.ApplicationUserId.ToString());
         }
 
         public Task<string> GetUserNameAsync(ApplicationUserIdentity user, CancellationToken cancellationToken)
@@ -87,7 +87,7 @@ namespace BlogLap.Identity
 
         public Task<bool> HasPasswordAsync(ApplicationUserIdentity user, CancellationToken cancellationToken)
         {
-            return Task.FromResult(user.PasswordHash != null);
+            return Task.FromResult(user.PasswordHas != null);
         }
 
         public Task SetEmailAsync(ApplicationUserIdentity user, string email, CancellationToken cancellationToken)
@@ -115,7 +115,7 @@ namespace BlogLap.Identity
 
         public Task SetPasswordHashAsync(ApplicationUserIdentity user, string passwordHash, CancellationToken cancellationToken)
         {
-            user.PasswordHash = passwordHash;
+            user.PasswordHas = passwordHash;
             return Task.FromResult(0);
         }
 

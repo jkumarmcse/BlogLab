@@ -44,7 +44,7 @@ namespace BlogLap.Web.Controller
             {
                 ApplicationUser user = new ApplicationUser()
                 {
-                    ApplicationUsrId = applicationUserIdentity.AppliationUserId,
+                    ApplicationUsrId = applicationUserIdentity.ApplicationUserId,
                     Username = applicationUserIdentity.Username,
                     Email = applicationUserIdentity.Email,
                     Fullname = applicatonUserCreate.FullName,
@@ -70,7 +70,7 @@ namespace BlogLap.Web.Controller
                 {
                     ApplicationUser applicationUser = new ApplicationUser()
                     {
-                        ApplicationUsrId = applicationUserIdentity.AppliationUserId,
+                        ApplicationUsrId = applicationUserIdentity.ApplicationUserId,
                         Username = applicationUserIdentity.Username,
                         Email = applicationUserIdentity.Email,
                         Fullname = applicationUserIdentity.FullName,

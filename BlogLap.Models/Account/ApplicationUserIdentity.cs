@@ -8,7 +8,7 @@ namespace BlogLap.Models
 {
     public class ApplicationUserIdentity
     {
-        public int AppliationUserId { get; set; }
+        public int ApplicationUserId { get; set; }
 
         public string Username { get; set; }
 
@@ -20,6 +20,6 @@ namespace BlogLap.Models
 
         public string FullName { get; set; }
 
-        public string  PasswordHash { get; set; }
+        public string  PasswordHas { get; set; }
     }
 }

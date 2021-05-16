@@ -32,7 +32,7 @@ namespace BlogLap.Services
         {
             var claims = new List<Claim>
             {
-                new Claim(JwtRegisteredClaimNames.NameId, user.AppliationUserId.ToString()),
+                new Claim(JwtRegisteredClaimNames.NameId, user.ApplicationUserId.ToString()),
                 new Claim(JwtRegisteredClaimNames.UniqueName, user.Username)
         };
 
